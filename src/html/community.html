@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Community | KarloDevelopingStudios.org</title>
+
+    <link rel="stylesheet" href="./newpage.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Audiowide&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Audiowide&family=Cormorant+Garamond&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <div class="topnav">
+    <a href="../../index.html">Home</a>
+    <a href="partners.html">Partners</a>
+    <a class="active" href="community.html">Community</a>
+    <a href="projects.html">Projects</a>
+    <a href="staff.html">Staff</a>
+    <a href="store.html">Store</a>
+    <a href="thelastgeneration.html">TheLastGeneration game</a>
+    <a href="aboutus.html">About us</a>
+</div>
+      <h1>COMMING SOON...</h1>
+      <br>
+      <h1>1st of August, 2025</h1>
+      <h2 id="cd">Loading cooldown</h2>
+      
+
+<script>
+
+    var countDownDate = new Date("Aug 2, 2025 00:00:00").getTime();
+
+    var x = setInterval(function() {
+
+
+      var now = new Date().getTime();
+
+
+      var distance = countDownDate - now;
+
+
+      var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+      var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+      var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+      var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+
+      document.getElementById("cd").innerHTML = days + "d " + hours + "h "
+      + minutes + "m " + seconds + "s ";
+
+
+      if (distance < 0) {
+        clearInterval(x);
+        document.getElementById("cd").innerHTML = "THE COMMUNITY PAGE WILL DROP WITHIN THE NEXT HOUR!";
+      }
+    }, 1000);
+</script>
+</body>
+</html>

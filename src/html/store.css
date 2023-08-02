@@ -1,0 +1,266 @@
+.card {
+    max-width: 300px;
+    margin: auto;
+    text-align: center;
+    font-family: arial;
+  }
+
+.card-child {
+  max-width: 300px;
+  margin: auto;
+  text-align: center;
+  font-family: arial;
+  width: 50%;
+  float: left;
+  padding: 20px;
+}
+
+  .child {
+    box-shadow: 0 4px 8px 0 rgba(255, 255, 255, 0.2);
+    max-width: 300px;
+    margin: 10;
+    text-align: center;
+    font-family: arial;
+    display: inline-block;
+    padding: 1rem 1rem;
+    vertical-align: middle;
+  }
+  
+  .price {
+    color: rgb(171, 170, 170);
+    font-size: 30px;
+  }
+  
+  .card button {
+    border: none;
+    outline: 0;
+    margin-left: 10;
+    color: black;
+    background-color: white;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+  }
+  
+  .card button:hover {
+    opacity: 0.7;
+  }
+
+
+  @font-face {
+    font-family: Audiowide;
+    src: url('../css/Audiowide-Regular.ttf');
+}
+
+@font-face {
+    font-family: Coromrant;
+    src: url('../css/CormorantGaramond-Regular.ttf');
+}
+
+@font-face {
+    font-family: Oswald;
+    src: url('./css/Oswald-VariableFont_wght.ttf');
+}
+
+@font-face {
+  font-family: Indieflower;
+  src: url('../css/IndieFlower-Regular.ttf');
+}
+
+html {
+    background-color: #242424;
+}
+
+h1 {
+    color: white;
+    font-family: Audiowide;
+    font-size: 25px;
+    text-align: center;
+}
+p {
+    color: white;
+    font-family: oswald;
+    font-size: 20px;
+}
+
+h2 {
+    color: #ffff;
+    font-size: 50px; 
+    font-family: Audiowide; 
+    text-align: center;
+}
+
+h4 {
+    color: #6065f0;
+    font-size: 30px;
+    font-family: Oswald;
+    text-align: center;
+}
+
+
+h5 {
+    color: white; 
+    font-size: 20px; 
+    font-family: 'Times New Roman', Times, serif
+}
+
+
+.topnav {
+    background-color: #333;
+    overflow: hidden;
+  }
+  
+  /* Style the links inside the navigation bar */
+  .topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: cemter;
+    padding: 14px 83px;
+    text-decoration: none;
+    font-size: 18px;
+  }
+  
+  /* Change the color of links on hover */
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  /* Add a color to the active/current link */
+  .topnav a.active {
+    background-color: #6065f0;
+    color: white;
+  }
+
+
+.invis {
+    color: #242424;
+}
+
+
+
+.tableTXT {
+    color: white; 
+    font-family: Audiowide;
+    font-size: 50px;
+    text-align: center;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 100%;
+    border: 1px solid #ddd;
+  }
+  
+  /* Style table headers and table data */
+  th, td {
+    text-align: center;
+    padding: 16px;
+  }
+  
+  th:first-child, td:first-child {
+    text-align: left;
+  }
+  
+  /* Zebra-striped table rows */
+  tr:nth-child(even) {
+    background-color: #ffffff
+  }
+
+  tr:nth-child(odd) {
+    background-color:rgb(163, 163, 163)
+  }
+  
+  .fa-check {
+    color: green;
+  }
+  
+  .fa-remove {
+    color: red;
+  }
+
+
+.sticky {
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 0;
+  }
+
+
+  .header {
+    position: fixed;
+    top: 0;
+    z-index: 1;
+    width: 100%;
+    background-color: #f1f1f1;
+  }
+  
+  /* The progress container (grey background) */
+  .progress-container {
+    width: 100%;
+    height: 8px;
+    background: #ccc;
+  }
+  
+
+  .progress-bar {
+    height: 8px;
+    background: #04AA6D;
+    width: 0%;
+  }
+
+.heading-1 {
+    font-family: Audiowide;
+    font-size: 50px;
+    color: white;
+    text-align: center;
+}
+
+.p {
+  font-family: Audiowide; 
+  color: white; 
+  font-size: 20px;
+}
+
+.imp {
+  font-family: Oswald; 
+  color: white; 
+  font-size: 5px; 
+}
+
+
+.communityTXT {
+  font-family: Indieflower; 
+  color: white; 
+  font-size: 50px;
+  text-align: center;
+}
+
+
+
+.danger {
+  color: black;
+  background-color: #ffdddd;
+  border-left: 6px solid #f44336;
+}
+
+.info {
+    color: black;
+  background-color: #2196F3;
+  border-left: 6px solid #003e70;
+  width: 1000px;
+}
+
+.warning {
+  color: black;
+  background-color: #FF9999;
+  border-left: 6px solid #F44336;
+}
+
+.success {
+  color: black;
+  background-color: #88C999;
+  border-left: 6px solid #04AA6D;
+}
