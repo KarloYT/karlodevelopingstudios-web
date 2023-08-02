@@ -264,3 +264,36 @@ table {
   background-color: #88C999;
   border-left: 6px solid #04AA6D;
 }
+
+
+.defaultTXT {
+  font-family: Audiowide;
+  color: white; 
+  font-size: 25px;
+}
+
+.bigTXT {
+  font-family: Audiowide;
+  color: white;
+  font-size: 100px;
+}
+
+.centerIMG {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.smallerTXT {
+  font-family: Audiowide;
+  color: white;
+  font-size: 25px;
+}
+
+.very-small-txt {
+  font-family: Audiowide;
+  color: white;
+  font-size: 10px;
+  text-align: center;
+}
